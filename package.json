@@ -1,0 +1,14 @@
+{
+  "name": "cypress-2",
+  "version": "1.0.0",
+  "description": "Aula de testes e2e com Cypress da Alura.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Érico Marshall",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
