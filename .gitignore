@@ -1,3 +1,6 @@
+# .env
+cypress.env.json
+
 # Relatórios gerados
 videos/
 results/
