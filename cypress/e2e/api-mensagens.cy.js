@@ -1,6 +1,5 @@
 describe('API AdoPet', () => {
-  const tempoEsperado = Math.random() * 1000; //exemplo para flaky test.
-
+  // const tempoEsperado = Math.random() * 1000; //exemplo para flaky test.
   const authorization = `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTY0M2NkNi03MTEyLTQxNWItOTVkMi0wNzkwNGIwZDFhMWMiLCJhZG9wdGVyTmFtZSI6IkFuYSBkZSBKZXN1cyIsImlhdCI6MTcwOTA0MTMwNSwiZXhwIjoxNzA5MzAwNTA1fQ.nhiaUyKdvN8RVxCkvne2gyI5n_pYnY_OMMdogMMqOlc`;
 
   it('Deve retornar as mensagens do usuário', () => {
@@ -14,7 +13,7 @@ describe('API AdoPet', () => {
       expect(response.status).to.be.equal(200);
       expect(response.body).is.not.empty;
       expect(response.body).to.have.property('msg');
-      expect(response.duration).to.be.lte(tempoEsperado); //lte = less than or equal
+      // expect(response.duration).to.be.lte(tempoEsperado); //lte = less than or equal
     })
   });
 
