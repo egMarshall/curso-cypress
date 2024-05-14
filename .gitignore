@@ -4,6 +4,7 @@ cypress.env.json
 # Relatórios gerados
 videos/
 results/
+screenshots/
 
 
 # Logs
